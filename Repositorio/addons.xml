@@ -43,7 +43,7 @@
         <datadir zip="true">https://raw.githubusercontent.com/luvarofe/repo/master/Repositorio/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para Mi</summary>
+        <summary>luvarofe</summary>
         <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>
