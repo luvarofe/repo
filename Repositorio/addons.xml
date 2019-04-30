@@ -36,7 +36,7 @@
   </extension>
 </addon>
 
-<addon id="repository.Mirepor" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.1" provider-name="Yo Mismo">
+<addon id="repository.Mirepor" name="[COLOR blue]luvarofe[/COLOR] Repo" version="1.0.1" provider-name="Yo Mismo">
     <extension point="xbmc.addon.repository" name="luvarofe">
         <info>https://raw.githubusercontent.com/luvarofe/repo/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/luvarofe/repo/master/Repositorio/addons.xml.md5</checksum>
