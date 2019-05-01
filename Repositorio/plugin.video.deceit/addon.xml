@@ -1,41 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="plugin.video.cocina"
-       name="recetas"
-       version="0.0.1"
-       provider-name="luvf">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-      <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/luvarofe/repo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/luvarofe/repo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/luvarofe/repo/master/Repositorio/</datadir>
-    </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Creado por luvf</summary>
-    <description>comer bien</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.deceit" name="Deceit" version="1.2.1" provider-name="Collusion/OneNation">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -67,26 +30,11 @@ version="6.0.0~alpha6" />
         <website></website>
         <video_guide></video_guide>
     </extension>
-
+	
 	    <extension point="xbmc.addon.repository" name="luvarofe">
         <info>https://raw.githubusercontent.com/luvarofe/repo/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/luvarofe/repo/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/luvarofe/repo/master/Repositorio/</datadir>
     </extension>
-
+	
 </addon>
-
-<addon id="repository.Mirepor" name="[COLOR blue]luvarofe[/COLOR] Repo" version="1.0.1" provider-name="luvf">
-    <extension point="xbmc.addon.repository" name="luvarofe">
-        <info>https://raw.githubusercontent.com/luvarofe/repo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/luvarofe/repo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/luvarofe/repo/master/Repositorio/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>luvarofe</summary>
-        <description></description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-</addons>
